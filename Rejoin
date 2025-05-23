@@ -1,0 +1,5 @@
+local player = game.Players.LocalPlayer
+local placeId = game.PlaceId
+local jobId = game.JobId
+ 
+game:GetService("TeleportService"):TeleportToPlaceInstance(placeId, jobId, player)
